@@ -1,4 +1,4 @@
-# ---------------------------------------------------------------
+﻿# ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
 
@@ -45,7 +45,7 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   #about: /about
   archives: /archives
   tags: /tags
@@ -78,9 +78,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+# scheme: Muse
+# scheme: Mist
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -140,8 +140,12 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  GitHub: https://github.com/lvraikkonen
+  Weibo: http://weibo.com/1246109477/profile?topnav=1&wvr=6
+  Wechat: https://www.zhihu.com/people/lu-shuo-53/activities
+  LinkedIn: http://www.linkedin.com/in/shuo-lv-58881823/
+  Facebook: https://www.facebook.com/shuo.lv
 
 
 # Social Links Icons
@@ -155,13 +159,16 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
+  Facebook: facebook
   Weibo: weibo
+  LinkedIn: linkedin
+  Wechat: weixin
 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /uploads/avatar.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -171,9 +178,6 @@ toc:
   # Automatically add list number to toc.
   number: true
 
-  # If true, all words will placed on next lines if header width longer then sidebar width.
-  wrap: false
-  
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
@@ -246,9 +250,8 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
+  wordcount: true
   min2read: false
-  separated_meta: true
 
 # Wechat Subscriber
 #wechat_subscriber:
@@ -291,7 +294,7 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
+  enable: true
   per_page: false
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -404,13 +407,6 @@ vkontakte_api:
   comments:     true
   num_of_posts: 10
 
-# Star rating support to each article.
-# To get your ID visit https://widgetpack.com
-rating: 
-  enable: false
-  id:     #<app_id>
-  color:  fc6423
-  
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
@@ -502,26 +498,6 @@ use_motion: true
 # Fancybox
 fancybox: true
 
-# Progress bar in the top during page loading.
-pace: false
-# Themes list:
-#pace-theme-big-counter
-#pace-theme-bounce
-#pace-theme-barber-shop
-#pace-theme-center-atom
-#pace-theme-center-circle
-#pace-theme-center-radar
-#pace-theme-center-simple
-#pace-theme-corner-indicator
-#pace-theme-fill-left
-#pace-theme-flash
-#pace-theme-loading-bar
-#pace-theme-mac-osx
-#pace-theme-minimal
-# For example
-# pace_theme: pace-theme-center-simple
-pace_theme: pace-theme-minimal
-
 # Canvas-nest
 canvas_nest: false
 
@@ -585,14 +561,6 @@ vendors:
   algolia_instant_js:
   algolia_instant_css:
 
-  # Internal version: 1.0.2
-  # See: https://github.com/HubSpot/pace
-  # Or use direct links below:
-  # pace: //cdn.bootcss.com/pace/1.0.2/pace.min.js
-  # pace_css: //cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-flash.min.css
-  pace:
-  pace_css:
-
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
   canvas_nest:
@@ -621,6 +589,8 @@ vendors:
   han:
 
 
+since: 2015
+
 # Assets
 css: css
 js: js
@@ -628,3 +598,19 @@ images: images
 
 # Theme version
 version: 5.1.1
+
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+wechatpay: /uploads/WeChatImage_20170527190034.jpg
+
+
+# title
+links_title: 友情链接
+links:
+  在线数学公式编辑器: https://webdemo.myscript.com/views/math.html
+  
+
+# JiaThis 分享服务
+jiathis: true
+
+# 来必力评论
+livere_uid: MTAyMC8yODkwOC81NDc3
