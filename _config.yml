@@ -606,8 +606,10 @@ wechatpay: /uploads/WeChatImage_20170527190034.jpg
 # title
 links_title: 友情链接
 links:
-  在线数学公式编辑器: https://webdemo.myscript.com/views/math.html
-  
+  公式编辑器: https://webdemo.myscript.com/views/math.html/
+  可视化Python代码: http://www.pythontutor.com/
+  Python最佳实践: http://docs.python-guide.org/en/latest/
+
 
 # JiaThis 分享服务
 jiathis: true
